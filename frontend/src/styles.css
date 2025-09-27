@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+}
+
+.App {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.chat-window {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message.user {
+  text-align: right;
+}
+
+.message.agent {
+  text-align: left;
+}
+
+form {
+  display: flex;
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+.file-uploader {
+  margin-top: 10px;
+}
